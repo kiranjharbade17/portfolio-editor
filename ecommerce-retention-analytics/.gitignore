@@ -1,0 +1,5 @@
+# Generated environment and intermediate files
+.venv/
+__pycache__/
+data/processed/sales_lines.csv
+data/raw/extracted/

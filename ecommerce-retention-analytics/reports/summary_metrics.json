@@ -1,0 +1,30 @@
+{
+  "dataset": "UCI Online Retail II",
+  "input_file": "online_retail_II.xlsx",
+  "date_min": "2009-12-01",
+  "date_max": "2011-12-09",
+  "raw_rows": 1067371,
+  "duplicate_rows_removed": 34335,
+  "sale_lines": 1007913,
+  "cancellation_lines": 19104,
+  "return_lines": 3393,
+  "missing_customer_id_lines": 235151,
+  "recorded_sales": 20476260.448,
+  "orders": 40077,
+  "customers": 5878,
+  "repeat_customers": 4255,
+  "repeat_sales_share": 0.9677537338920198,
+  "forecast": {
+    "holdout_weeks": 12,
+    "metrics": {
+      "seasonal_naive": {
+        "mae": 61918.83991666667,
+        "wape": 0.1939434466069078
+      },
+      "moving_average_4w": {
+        "mae": 58586.90558333334,
+        "wape": 0.18350709428919235
+      }
+    }
+  }
+}

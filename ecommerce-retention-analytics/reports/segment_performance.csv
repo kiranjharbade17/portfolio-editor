@@ -1,0 +1,6 @@
+Segment,Customers,SalesGBP,MedianOrders
+Loyal,2051,13310890.659,8.0
+"At risk, previously frequent",888,2183671.484,5.0
+Lapsed,2051,1120226.994,1.0
+Needs attention,566,386011.451,2.0
+Recent customers,322,374003.68,2.0
